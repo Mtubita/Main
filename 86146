@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hausmeisterservice Tubita</title>
+    <style>
+        /* Hauptfarben aus dem Logo */
+        :root {
+            --primary-color: #3498db; /* Helles Blau */
+            --secondary-color: #2980b9; /* Dunkleres Blau für Kontraste */
+            --background-light: #f4faff; /* Sehr helles Blau für Hintergründe */
+            --text-color: #333;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-light);
+            color: var(--text-color);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        header img {
+            max-height: 95%; /* Logo um 5% verkleinert */
+            width: auto;
+        }
+
+        nav {
+            background-color: var(--secondary-color);
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #1f6aa5;
+            color: white;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            margin-top: 20px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--primary-color);
+        }
+
+        footer {
+            background-color: var(--secondary-color);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            nav a {
+                display: block;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Hausmeisterservice Tubita Logo">
+    </header>
+
+    <nav>
+        <a href="#start">Startseite</a>
+        <a href="#leistungen">Leistungen</a>
+        <a href="#ueber-uns">Über uns</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <div class="container" id="start">
+        <h2>Willkommen bei Hausmeisterservice Tubita</h2>
+        <p>Ihr zuverlässiger Partner für Hausmeister-Dienstleistungen sowie Maler-, Gipser- und Stuckateurarbeiten.</p>
+    </div>
+
+    <div class="container" id="leistungen">
+        <h2>Unsere Leistungen</h2>
+
+        <h3>Hausmeisterservice</h3>
+        <p>Wir kümmern uns um die Instandhaltung Ihrer Immobilie – von der Reinigung über den Winterdienst bis hin zur Pflege der Außenanlagen.</p>
+
+        <h3>Malerarbeiten</h3>
+        <p>Professionelle Wand- und Deckengestaltung mit hochwertigen Farben und Techniken für ein perfektes Finish.</p>
+
+        <h3>Gipserarbeiten</h3>
+        <p>Wir übernehmen Putz- und Spachtelarbeiten für einwandfreie Wände und Fassaden.</p>
+
+        <h3>Stuckateurarbeiten</h3>
+        <p>Dekorative Stuckelemente für Innen- und Außenbereiche – klassisch oder modern.</p>
+    </div>
+
+    <div class="container" id="ueber-uns">
+        <h2>Über uns</h2>
+        <p>Wir bieten Ihnen fachkundige Handwerksarbeit in den Bereichen Hausmeister, Maler, Gipser und Stuckateurarbeiten. Seit mehreren Jahren sind wir in der Branche tätig und haben uns durch Zuverlässigkeit und saubere Arbeit einen guten Ruf erarbeitet.</p>
+    </div>
+
+    <div class="container" id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Kontaktieren Sie uns für ein unverbindliches Angebot:</p>
+        <p><strong>Telefon:</strong> 0162/7663671</p>
+        <p><strong>Email:</strong> <a href="mailto:stuckateurmino@t-online.de">stuckateurmino@t-online.de</a></p>
+        <p><strong>Adresse:</strong> Neuffenstraße 19, 73765 Neuhausen auf den Fildern</p>
+    </div>
+
+    <footer>
+        &copy; 2025 Hausmeisterservice Tubita – Alle Rechte vorbehalten.
+    </footer>
+
+</body>
+</html>
